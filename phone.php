@@ -20,7 +20,7 @@
 	 </div>
 	 <div class='header1'></div>
 	</div>
-  	<div class='page' style='height:600px;'>
+  	<div class='page' style='height:100px;'>
 	<div class='line'></div>
 	 <div id='form' style='width:530px;height:598px;'>
 	 <div class='type'>Information:</div>
@@ -37,7 +37,6 @@
 	  </div>
     </div>
    </div>
-<div class='footer'>	<div class='line'></div></div>
 
 
 
