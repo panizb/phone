@@ -26,11 +26,12 @@
      <div class='type'>Information:</div>
       <div id='input' style='height:545px; width:528px; '>
         <?php
-          require ("parse.php");
-          $number=$_POST['num'];
-          $p = new Parsing\Parser;
-          $number=preg_replace("/[^0-9]/", "", $number);
-          $result = $p->f($number);
+          require 'parse.php';
+          require 'vendor/autoload.php';
+          $number = $_POST['num'];
+          $p = new Parsing\Parse();
+          $number = preg_replace('/[^0-9]/', '', $number);
+          $result = $p->digest($number);
         ?>
  
       </div>

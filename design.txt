@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pmd version="1.5.0" timestamp="2015-07-27T13:20:06-04:00">
+  <file name="/opt/lampp/htdocs/MSISDN/parse.php">
+    <violation beginline="9" endline="9" rule="ExitExpression" ruleset="Design Rules" externalInfoUrl="http://phpmd.org/rules/design.html#exitexpression" priority="1">
+      The method dieSQL() contains an exit expression.
+    </violation>
+    <violation beginline="21" endline="21" rule="ExitExpression" ruleset="Design Rules" externalInfoUrl="http://phpmd.org/rules/design.html#exitexpression" priority="1">
+      The method digest() contains an exit expression.
+    </violation>
+  </file>
+</pmd>
