@@ -1,0 +1,16 @@
+{
+    "name": "nazanin/msidsn",
+    "description": "returns MNO identifier, country dialling code, subscriber number and country identifier",
+    "require": {
+        "phpmd/phpmd": "2.2",
+        "squizlabs": "2.*",
+        "sebastian/phpcpd": "^2.0"
+    },
+    "authors": [
+        {
+            "name": "nazanin yz",
+            "email": "nazanin.yz94@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
